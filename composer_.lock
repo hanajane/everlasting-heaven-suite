@@ -1,0 +1,73 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9a5ed3d70d22195140dab850829debac",
+    "packages": [
+        {
+            "name": "wovosoft/laravel-package-make-commands",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wovosoft/laravel-package-make-commands.git",
+                "reference": "383a4d07dd06d274fa3b4557a81b085bfaa86f3c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wovosoft/laravel-package-make-commands/zipball/383a4d07dd06d274fa3b4557a81b085bfaa86f3c",
+                "reference": "383a4d07dd06d274fa3b4557a81b085bfaa86f3c",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Wovosoft\\LaravelPackageMakeCommands\\LaravelPackageMakeCommandsServiceProvider"
+                    ],
+                    "aliases": {
+                        "LaravelPackageMakeCommands": "Wovosoft\\LaravelPackageMakeCommands\\Facades\\LaravelPackageMakeCommands"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Wovosoft\\LaravelPackageMakeCommands\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Narayan Adhikary",
+                    "email": "wovosoft@gmail.com",
+                    "homepage": "https://wovosoft.com"
+                }
+            ],
+            "description": "Laravel make:* commands for Packages in ./packages/vendor/package for local development",
+            "homepage": "https://github.com/wovosoft/laravel-package-make-commands",
+            "keywords": [
+                "Make commands",
+                "laravel",
+                "package"
+            ],
+            "support": {
+                "issues": "https://github.com/wovosoft/laravel-package-make-commands/issues",
+                "source": "https://github.com/wovosoft/laravel-package-make-commands/tree/v0.0.1"
+            },
+            "time": "2023-09-18T07:30:37+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
